@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+      max-width: 1300px;
+      width: 90%;
+      margin: auto;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+.text-banner{
+padding: 30px 0;
+}
+.text-banner .title{
+  color: rgb(211, 67, 112) ;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text-banner .description{
+ font-weight: 400;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.card-collection{
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.card-collection .card.specialist{
+  float: left;
+  width: calc((100% / 3) - 40px);
+  text-align: center;
+  margin: 20px;
+}
+.float-wrapper{
+}
+.card-collection .card.specialist img{
+   width: 80px;
+   float: left;
+   width: calc(100% / 3);
+   text-align: center;
+}
+.card-collection .card.specialist .title{
+
+}
+.card-collection .card.specialist .subtitle{
+
+}
+.card-collection .card.specialist .email{
+
+}
